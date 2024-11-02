@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter App with Tabs',
+      title: 'Flutter app - midterm project',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
@@ -30,16 +30,17 @@ class HomeScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Map app'),
+          title: const Text('Shop app'),
           bottom: const TabBar(
             tabs: [
-              Tab(icon: Icon(Icons.menu_open, color: Colors.blueAccent)),
-              Tab(icon: Icon(Icons.map_rounded, color: Colors.greenAccent)),
+              Tab(icon: Icon(Icons.menu_open, color: Colors.blue, size: 40.0)),
+              Tab(icon: Icon(Icons.map_rounded, color: Colors.red, size: 40.0)),
             ],
           ),
         ),
         body: const TabBarView(
           children: [
+            MenuPage(),
             MapPage(),
           ],
         ),

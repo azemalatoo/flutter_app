@@ -8,10 +8,10 @@ class MapPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Map Screen')),
+      appBar: AppBar(title: const Text('Map')),
       body: FlutterMap(
         options: MapOptions(
-          center: LatLng(42.8746, 74.5964), // Coordinates for Bishkek
+          center: LatLng(42.8746, 74.5964),
           zoom: 13.0,
         ),
         children: [

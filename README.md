@@ -15,3 +15,8 @@ represents the locations of these branches.
 # Video
 https://github.com/user-attachments/assets/fda37146-22e3-448e-8dbd-738e72c105b0
 
+# Application
+
+[app-release.apk.zip](https://github.com/user-attachments/files/17609432/app-release.apk.zip)
+
+
